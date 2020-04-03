@@ -4,13 +4,13 @@ import App from './App';
 
 test('renders learn react link', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/Hello Mark/i);
+  const linkElement = getByText(/Hello John/i);
   expect(linkElement).toBeInTheDocument();
 });
 
 
 test('renders learn react link', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/Hello Mark/i);
+  const linkElement = getByText(/Hello John/i);
   expect(linkElement).toBeInTheDocument();
 });
